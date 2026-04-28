@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://blk1eusbjduvr"]
+
+[ext_resource type="PackedScene" uid="uid://cqqo3l0rqoa2p" path="res://Models/the Bat.glb" id="1_rkl86"]
+
+[node name="the Bat" unique_id=1282307235 instance=ExtResource("1_rkl86")]

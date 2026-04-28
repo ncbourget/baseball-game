@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dhjsvloamrklu"]
+
+[ext_resource type="PackedScene" uid="uid://dq88cfot4lxks" path="res://Scenes/Batter_scene.tscn" id="1_jjgbg"]
+
+[node name="Main" type="Node3D" unique_id=282693019]
+
+[node name="Batter" parent="." unique_id=1224710737 instance=ExtResource("1_jjgbg")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=756204138]
+
+[node name="Pitch System" type="Node" parent="." unique_id=387525799]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1744240287]
+transform = Transform3D(0.7924689, 0.37676919, 0.47962296, -0.6018509, 0.35563892, 0.71504986, 0.098836124, -0.8553162, 0.5085916, 9.998209, 15.571062, 7.143881)
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="." unique_id=548577290]
+transform = Transform3D(0.8601705, 0.4213209, -0.28739443, 0.38607314, -0.16970798, 0.9067231, 0.33324826, -0.8908917, -0.30863845, -24.940418, 17.072124, -3.6574392)
+
+[node name="PitchSounds" type="Node3D" parent="." unique_id=882081473]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -146.79558, 0, 2.999733)
+
+[node name="PitchWoosh2" type="AudioStreamPlayer3D" parent="PitchSounds" unique_id=1008182068]
+
+[node name="BatSounds" type="Node3D" parent="." unique_id=1680427895]
+
+[node name="BatSwing" type="AudioStreamPlayer3D" parent="BatSounds" unique_id=698147130]
+
+[node name="BatCrack" type="AudioStreamPlayer3D" parent="BatSounds" unique_id=1793722192]
+
+[node name="BatMiss" type="AudioStreamPlayer3D" parent="BatSounds" unique_id=15543965]
